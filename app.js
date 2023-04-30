@@ -9,7 +9,7 @@ mainHead.style.color = 'gold'
 mainHead.style.backgroundColor = 'black'
 
 const input = document.querySelector('input')
-input.setAttribute('value', 'enter text')
+input.setAttribute('value', 'default text')
 
 input.value = input.getAttribute('value', 'enter text')
 const allLis = document.querySelectorAll('li')
