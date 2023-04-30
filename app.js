@@ -20,7 +20,7 @@ const allLis = document.querySelectorAll('li')
 // ul.children[1].style.color = 'red'
 // ul.lastElementChild.style.color = 'blue'
 
-liFirst.closest('body').style.fontSize = '1.1rem'
+// liFirst.closest('body').style.fontSize = '1.1rem'
 // uEl.previousElementSibling.style.color = 'darkgreen'
 uEl.nextElementSibling.style.backgroundColor = 'lightgrey'
 const uEl2 = document.body.children[1].firstElementChild.nextElementSibling
