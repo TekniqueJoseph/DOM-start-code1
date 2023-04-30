@@ -12,3 +12,11 @@ body{
     top: 0;
     /* z-index:-10; */
 }
+.content{
+    text-align: center;
+}
+
+ul {
+    /* text-align: center; */
+    list-style-position: inside;
+}
