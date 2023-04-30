@@ -6,3 +6,8 @@ mainHead.textContent = 'Take Your Time!'
 mainHead.className = 'title'
 mainHead.style.color = 'gold'
 mainHead.style.backgroundColor = 'black'
+
+const input = document.querySelector('input')
+input.setAttribute('value', 'enter text')
+
+input.value = input.getAttribute('value', 'enter text')
