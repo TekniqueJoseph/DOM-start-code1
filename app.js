@@ -14,5 +14,6 @@ input.setAttribute('value', 'default text')
 input.value = input.getAttribute('value', 'enter text')
 const allLis = document.querySelectorAll('li')
 
-
-ul.children[0].style.color = 'red'
+ul.firstElementChild.style.color = 'green'
+ul.children[1].style.color = 'red'
+ul.lastElementChild.style.color = 'blue'
