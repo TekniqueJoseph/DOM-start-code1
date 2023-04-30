@@ -24,8 +24,8 @@ ul {
 input{
     display: block;
     margin: 0 auto;
+    margin-top: 20px;
 }
-
 ul li:hover{
     cursor: pointer;
 }
