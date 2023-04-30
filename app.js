@@ -1,5 +1,6 @@
 const mainHead = document.querySelector('h1')
 const second = document.querySelector('ul :nth-child(2)');
+const third = document.querySelector('li:last-of-type')
 const part = document.querySelector('#particles-js')
 
 mainHead.textContent = 'Take Your Time!'
@@ -11,3 +12,8 @@ const input = document.querySelector('input')
 input.setAttribute('value', 'enter text')
 
 input.value = input.getAttribute('value', 'enter text')
+const allLis = document.querySelectorAll('li')
+
+const list = document.querySelectorAll('li')
+second.style.color = 'red'
+third.style.color = 'indigo'
