@@ -26,6 +26,9 @@ input{
     margin: 0 auto;
     margin-top: 20px;
 }
+li{
+    font-size: 1.1rem;
+}
 ul li:hover{
     cursor: pointer;
 }
