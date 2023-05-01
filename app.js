@@ -49,7 +49,7 @@ button.addEventListener ('click', () => {
 const list = document.querySelector('ul')
 list.innerHTML = list.innerHTML + '<li>Gallery</li>'
 
-// const div = document.querySelector('.inBox')
+const div = document.querySelector('.inBox')
 // div.innerHTML = div.innerHTML + '<p>Invalid Entry!</p>'
-// div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
+div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
 
