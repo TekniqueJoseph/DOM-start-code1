@@ -53,15 +53,28 @@ button.addEventListener ('click', () => {
 // div.innerHTML = div.innerHTML + '<p>Invalid Entry!</p>'
 // div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
 
+// const list = document.querySelector('ul')
+// const newLi = document.createElement('li')
+// newLi.textContent = 'Gallery'
+// list.appendChild(newLi)
+
+// const newLi1 = document.createElement('li')
+// const newLi2 = document.createElement('li')
+// newLi1.textContent = 'Learn JavaScript'
+// newLi2.textContent = 'Master JavaScript'
+// list.appendChild(newLi1)
+// list.appendChild(newLi2)
+
 const list = document.querySelector('ul')
+const secondLi = list.children[1]
 const newLi = document.createElement('li')
 newLi.textContent = 'Gallery'
-list.appendChild(newLi)
+// list.prepend(newLi)
+// list.lastElementChild.before(newLi)
 
-const newLi1 = document.createElement('li')
-const newLi2 = document.createElement('li')
-newLi1.textContent = 'Learn JavaScript'
-newLi2.textContent = 'Master JavaScript'
-list.appendChild(newLi1)
-list.appendChild(newLi2)
+// secondLi.insertAdjacentElement('afterend',newLi)
+const newLi2 = newLi.cloneNode(true)
+list.append(newLi, newLi2)
+
+
 
