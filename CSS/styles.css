@@ -35,3 +35,13 @@ ul li:hover{
 h1:hover{
     cursor: pointer;
 }
+.red-bg {
+    background-color: red;
+    color:aliceblue
+}
+.visible {
+    display: block;
+}
+.invisible {
+    display: none;
+}
