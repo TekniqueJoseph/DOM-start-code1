@@ -1,5 +1,6 @@
 const mainHead = document.querySelector('h1')
 const ul = document.querySelector('ul')
+const content = document.querySelector('.content')
 
 const liFirst = document.querySelector('li')
 const uEl = liFirst.parentElement
@@ -23,7 +24,10 @@ const allLis = document.querySelectorAll('li')
 // liFirst.closest('body').style.fontSize = '1.1rem'
 // uEl.previousElementSibling.style.color = 'darkgreen'
 // uEl.nextElementSibling.style.backgroundColor = 'lightgrey'
-const uEl2 = document.body.children[1].firstElementChild.nextElementSibling
-const firstLi = uEl2.firstElementChild
+
+const sec = content.children[1].style.color = 'red'
+// content.style.color = 'red'
+// sec.style.color = 'red'
+
 
 
