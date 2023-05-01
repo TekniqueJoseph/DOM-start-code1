@@ -46,10 +46,23 @@ button.addEventListener ('click', () => {
     section.classList.toggle('invisible')
 })
 
-const list = document.querySelector('ul')
-list.innerHTML = list.innerHTML + '<li>Gallery</li>'
+// const list = document.querySelector('ul')
+// list.innerHTML = list.innerHTML + '<li>Gallery</li>'
 
-const div = document.querySelector('.inBox')
+// const div = document.querySelector('.inBox')
 // div.innerHTML = div.innerHTML + '<p>Invalid Entry!</p>'
-div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
+// div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
+
+const list = document.querySelector('ul')
+const newLi = document.createElement('li')
+newLi.textContent = 'Gallery'
+list.appendChild(newLi)
+
+
+const newLi1 = document.createElement('li')
+const newLi2 = document.createElement('li')
+newLi1.textContent = 'Learn JavaScript'
+newLi2.textContent = 'Master JavaScript'
+list.appendChild(newLi1)
+list.appendChild(newLi2)
 

@@ -37,7 +37,8 @@ h1:hover{
 }
 .red-bg {
     background-color: red;
-    color:aliceblue
+    color:aliceblue;
+    border-radius: 25%;
 }
 .visible {
     display: block;
