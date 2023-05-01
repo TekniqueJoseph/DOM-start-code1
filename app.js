@@ -58,7 +58,6 @@ const newLi = document.createElement('li')
 newLi.textContent = 'Gallery'
 list.appendChild(newLi)
 
-
 const newLi1 = document.createElement('li')
 const newLi2 = document.createElement('li')
 newLi1.textContent = 'Learn JavaScript'
