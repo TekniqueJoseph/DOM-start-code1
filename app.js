@@ -65,16 +65,27 @@ button.addEventListener ('click', () => {
 // list.appendChild(newLi1)
 // list.appendChild(newLi2)
 
-const list = document.querySelector('ul')
-const secondLi = list.children[1]
-const newLi = document.createElement('li')
-newLi.textContent = 'Gallery'
-// list.prepend(newLi)
+// const list = document.querySelector('ul')
+// const secondLi = list.children[1]
+// const newLi = document.createElement('li')
+// newLi.textContent = 'Gallery'
+// // list.prepend(newLi)
 // list.lastElementChild.before(newLi)
-
+// list.lastElementChild.after(newLi)
+// list.firstElementChild.replaceWith(newLi)
 // secondLi.insertAdjacentElement('afterend',newLi)
-const newLi2 = newLi.cloneNode(true)
-list.append(newLi, newLi2)
+// const newLi2 = newLi.cloneNode(true)
+// list.append(newLi, newLi2)
 
+// const list = document.querySelector('ul')
+// const listItems = list.querySelectorAll('li') //static
+// const listItems2 = list.getElementsByTagName('li') // live
+// const newLi = document.createElement('li')
+// newLi.textContent = 'Gallery'
+// list.append(newLi)
+
+const list = document.querySelector('ul')
+// list.remove()
+list.parentElement.removeChild(list)
 
 
