@@ -18,9 +18,9 @@ input.setAttribute('value', 'default text')
 input.value = input.getAttribute('value', 'enter text')
 const allLis = document.querySelectorAll('li')
 
-// ul.firstElementChild.style.color = 'green'
-// ul.children[1].style.color = 'red'
-// ul.lastElementChild.style.color = 'blue'
+ul.firstElementChild.style.color = 'green'
+ul.children[1].style.color = 'white'
+ul.lastElementChild.style.color = 'blue'
 
 // liFirst.closest('body').style.fontSize = '1.1rem'
 // uEl.previousElementSibling.style.color = 'darkgreen'
@@ -34,7 +34,7 @@ const section = document.querySelector('section')
 const button = document.querySelector('button')
 
 // section.style.backgroundColor = 'blue'
-section.className = 'red-bg'
+// section.className = 'red-bg'
 
 button.addEventListener ('click', () => {
     // if(section.className === 'red-bg visible') {
@@ -46,12 +46,12 @@ button.addEventListener ('click', () => {
     section.classList.toggle('invisible')
 })
 
-// const list = document.querySelector('ul')
-// list.innerHTML = list.innerHTML + '<li>Gallery</li>'
+const list = document.querySelector('ul')
+list.innerHTML = list.innerHTML + '<li>Gallery</li>'
 
-// const div = document.querySelector('.inBox')
-// div.innerHTML = div.innerHTML + '<p>Invalid Entry!</p>'
-// div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
+const div = document.querySelector('.inBox')
+// div.innerHTML = div.innerHTML + '<p>Invalid Entry!</p> <p>Try</p>'
+div.insertAdjacentHTML('beforeend', '<p>Invalid Entry!</p>')
 
 // const list = document.querySelector('ul')
 // const newLi = document.createElement('li')
@@ -84,8 +84,8 @@ button.addEventListener ('click', () => {
 // newLi.textContent = 'Gallery'
 // list.append(newLi)
 
-const list = document.querySelector('ul')
+// const list = document.querySelector('ul')
 // list.remove()
-list.parentElement.removeChild(list)
+// list.parentElement.removeChild(list)
 
 
